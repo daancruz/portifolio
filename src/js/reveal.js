@@ -41,6 +41,56 @@ revelar.reveal('.animation-right', {
     origin: 'rigth'
 });
 
+revelar.reveal('.fa-html5', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 100,
+    origin: 'rigth'
+});
+
+revelar.reveal('.fa-css3', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 150,
+    origin: 'rigth'
+});
+
+revelar.reveal('.fa-js', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 200,
+    origin: 'rigth'
+});
+
+revelar.reveal('.fa-react', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 250,
+    origin: 'rigth'
+});
+
+revelar.reveal('.fa-database', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 300,
+    origin: 'rigth'
+});
+
+revelar.reveal('.fa-node', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 350,
+    origin: 'rigth'
+});
+
+revelar.reveal('.fa-github', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 400,
+    origin: 'rigth'
+});
+
+
 //PROJETOS ANIMATION
 revelar.reveal('.fundo1', {
     duration: 2000,

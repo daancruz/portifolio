@@ -18,7 +18,7 @@
 
 .sobre .title {
     font-family: var(--shadows);
-    font-size: 3em;
+    /* font-size: 3em; */
     font-weight: 600;
 }
 
