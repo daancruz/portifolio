@@ -23,56 +23,55 @@
 
 <body>
     <!-- HEADER -->
-    <header class="container-fluid d-flex flex-column justify-content-center align-items-center">
-        <div class="content text-center position-relative">
-            <h1 class="title">Danilo da Cruz</h1>
-            <p class="text">Desenvolvedor web</p>
+    <header class="container-fluid d-flex flex-column justify-content-center align-items-center position-relative">
+        <h1 class="title">Danilo da Cruz</h1>
+        <p class="text">Desenvolvedor web</p>
+        <div class="link text-center mt-5 position-absolute">
             <a href="#sobre">
-                <i class="bi bi-arrow-down hidden position-absolute"></i>
+                <i class="bi bi-arrow-down hidden"></i>
             </a>
         </div>
     </header>
 
     <main class="d-flex flex-column gap-5">
         <!-- SOBRE -->
-        <section class="sobre container position-relative mb-5 d-flex align-items-center" id="sobre">
-            <p class="sobre-animation-fundo hidden position-absolute">SOBRE</p>
-            <div class="row position-relative">
-                <div class="col-12 col-md-6">
-                    <div class="m-2 me-md-5">
-                        <h2 class="sobre-title-animation hidden title mb-5">Quem é Danilo da Cruz?</h2>
-                        <p class="sobre-text-animation hidden text text-center text-md-start">
-                            Sou um desenvolvedor apaixonado por tecnologia e inovação, sempre buscando novas soluções e
-                            aprimorando minhas habilidades. Sou formado como Técnico em Informática com ênfase em
-                            Desenvolvimento de Sistemas e, atualmente, estudo desenvolvimento web, focado na criação de
-                            interfaces modernas e intuitivas.
-                        </p>
-                        <p class="sobre-text-animation hidden text text-center text-md-start">
-                            Meu objetivo é construir experiências digitais fluidas, responsivas e acessíveis, garantindo
-                            que cada projeto entregue valor real para os usuários. No meu portfólio, você encontrará
-                            projetos que refletem minha evolução como desenvolvedor. Vamos conversar?
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <!-- <img class="img-fluid rounded-circle" src="https://placehold.co/600x600" alt=""> -->
-                </div>
-                <div class="text-center mt-5">
-                    <a href="#projetos">
-                        <i class="bi bi-arrow-down hidden position-absolute"></i>
-                    </a>
+        <section class="sobre container position-relative mb-5 d-flex flex-column flex-md-row align-items-center" id="sobre">
+            <p class="animation-left hidden position-absolute">SOBRE</p>
+            <div class="col-12 col-md-6 px-5">
+                <div class="m-2 me-md-5">
+                    <h2 class="sobre-title-animation hidden title">Quem é</h2>
+                    <h2 class="sobre-title-animation hidden title mb-5 ms-5">Danilo Cruz?</h2>
+                    <p class="sobre-text-animation hidden text text-center text-md-start">
+                        Sou um desenvolvedor apaixonado por tecnologia e inovação, sempre buscando novas soluções e
+                        aprimorando minhas habilidades. Sou formado como Técnico em Informática com ênfase em
+                        Desenvolvimento de Sistemas e, atualmente, estudo desenvolvimento web, focado na criação de
+                        interfaces modernas e intuitivas.
+                    </p>
+                    <p class="sobre-text-animation hidden text text-center text-md-start">
+                        Meu objetivo é construir experiências digitais fluidas, responsivas e acessíveis, garantindo
+                        que cada projeto entregue valor real para os usuários. No meu portfólio, você encontrará
+                        projetos que refletem minha evolução como desenvolvedor. Vamos conversar?
+                    </p>
                 </div>
             </div>
+            <div class="col-12 col-md-6 px-5 mb-md-5">
+                    <img class="animation-right hidden img-fluid" src="/src/img/danilo-cruz.jpeg" alt="">
+            </div>
+            <!-- <div class="link text-center mt-5 position-absolute">
+                <a href="#projetos">
+                    <i class="bi bi-arrow-down hidden"></i>
+                </a>
+            </div> -->
         </section>
 
         <!-- PROJETOS -->
-        <section class="projetos container mb-5 py-2 position-relative" id="projetos">
-            <p class="projetos__animation fundo1 hidden position-absolute">PROJETO</p>
-            <p class="projetos__animation fundo2 hidden position-absolute">SUZANE</p>
-            <p class="projetos__animation fundo3 hidden position-absolute">SALES</p>
-            <div class="row gap-1 gap-md-0">
-                <div class="col-12 col-md-6 text-center px-3 px-md-0 d-flex flex-column gap-2">
-                    <h2 class="title projetos-title-animation hidden">Teste de Front-end</h2>
+        <section class="projetos container d-flex align-items-center mb-5 py-2 position-relative" id="projetos">
+            <div class="row gap-1 gap-md-0 position-relative">
+                <p class="projetos__animation fundo1 hidden position-absolute">PROJETO</p>
+                <p class="projetos__animation fundo2 hidden position-absolute">SUZANE</p>
+                <p class="projetos__animation fundo3 hidden position-absolute">SALES</p>
+                <div class="col-12 col-md-6 text-center text-md-start px-5 px-md-5 d-flex flex-column gap-2">
+                    <h2 class="title projetos-title-animation hidden mb-5 mb-md-0 mb-md-5">Teste de Front-end</h2>
                     <p class="projetos-text-animation hidden text text-center text-md-start">
                         Um protótipo foi disponibilizado para realizar um teste de Front-end para uma vaga de estágio.
                     </p>
@@ -105,25 +104,48 @@
                         </li>
                     </ul>
                 </div>
-                <div class="image col-12 col-md-6 text-center d-flex gap-0 gap-md-4 justify-content-center">
+                <div class="image col-12 col-md-6 text-center d-flex gap-0 px-0 px-md-5 gap-md-4 justify-content-center">
                     <div class="col-4 col-md-3 d-flex flex-column justify-content-center">
                         <img class="image-animation1 hidden" src="/src/img/suzane-sales1.png" alt="">
                     </div>
                     <div class="col-4 col-md-3">
-                        <img class="image-animation2 hidden mt-5" src="/src/img/suzane-sales2.png" alt="">
+                        <img class="image-animation2 hidden" src="/src/img/suzane-sales2.png" alt="">
                     </div>
                     <div class="col-3">
                         <img class="image-animation3 d-none d-md-block hidden" src="/src/img/suzane-sales3.png" alt="">
                     </div>
                 </div>
-                <div class="link text-center mb-5">
-                    <a class="m-0 p-0" href="#">
-                        <i class="bi bi-arrow-down hidden m-0 p-0"></i>
+            </div>
+            <!-- <div class="link text-center mt-5 position-absolute">
+                <a href="#contato">
+                    <i class="bi bi-arrow-down hidden"></i>
+                </a>
+            </div> -->
+        </section>
+
+        <!-- CONTATO -->
+        <section class="contato container d-flex align-items-center justify-content-center" id="contato">
+            <div class="col-12 position-relative d-flex flex-column align-items-center justify-content-center gap-5">
+                <p class="animation-right hidden position-absolute">CONTATO</p>
+
+                <h2 class="title">Contato</h2>
+                <div class="d-flex gap-5">
+                    <a class="link contato-img hidden" href="https://github.com/daansmyth" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a class="link contato-img hidden" href="https://linkedin.com/in/danilo-cruz-8805a2213" target="_blank">
+                        <i class="bi bi-linkedin"></i>
                     </a>
                 </div>
+                
             </div>
         </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="col-12 py-2 d-flex align-items-center justify-content-center">
+        <p class="text">Criado por <a class="link" href="https://linkedin.com/in/danilo-cruz-8805a2213" target="_blank">Danilo Cruz</a> | 2025 - Todos os direitos Reservados</p>
+    </footer>
 </body>
 
 </html>

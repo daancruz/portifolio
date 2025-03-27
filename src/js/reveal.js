@@ -14,8 +14,8 @@ revelar.reveal('.suzane-sales', {
 });
 
 //SOBRE
-revelar.reveal('.sobre-animation-fundo', {
-    duration: 2000,
+revelar.reveal('.animation-left', {
+    duration: 1000,
     distance: '1000px',
     delay: 150,
     origin: 'left'
@@ -24,6 +24,7 @@ revelar.reveal('.sobre-animation-fundo', {
 revelar.reveal('.sobre-title-animation', {
     duration: 2000,
     distance: '100px',
+    origin: 'top'
 });
 
 revelar.reveal('.sobre-text-animation', {
@@ -32,23 +33,31 @@ revelar.reveal('.sobre-text-animation', {
     delay: 150
 });
 
+
+revelar.reveal('.animation-right', {
+    duration: 2000,
+    distance: '1000px',
+    delay: 150,
+    origin: 'rigth'
+});
+
 //PROJETOS ANIMATION
 revelar.reveal('.fundo1', {
     duration: 2000,
-    distance: '100px',
+    distance: '1000px',
     origin: 'left'
 });
 
 revelar.reveal('.fundo2', {
     duration: 2000,
-    distance: '100px',
+    distance: '1000px',
     delay: 150,
     origin: 'left'
 });
 
 revelar.reveal('.fundo3', {
     duration: 2000,
-    distance: '100px',
+    distance: '1000px',
     delay: 200,
     origin: 'left'
 });
@@ -68,7 +77,7 @@ revelar.reveal('.projetos-text-animation', {
 
 revelar.reveal('.projetos-list-animation', {
     duration: 2000,
-    distance: '1000px',
+    distance: '100px',
     delay: 200,
     origin: 'bottom'
 });
@@ -91,4 +100,19 @@ revelar.reveal('.image-animation3', {
     distance: '1000px',
     delay: 500,
     origin: 'bottom'
+});
+
+//CONTATO
+revelar.reveal('.contato-img', {
+    duration: 2000,
+    distance: '100px',
+    delay: 250,
+    origin: 'bottom'
+});
+
+revelar.reveal('.title', {
+    duration: 2000,
+    distance: '100px',
+    delay: 150,
+    origin: 'top'
 });

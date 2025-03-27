@@ -1,9 +1,11 @@
 .sobre {
     z-index: 1;
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 2em;
+    padding-bottom: 8em;
 }
 
-.sobre .sobre-animation-fundo {
+.sobre p:first-child {
     top: 50%;
     left: -20%;
     transform: translateY(-50%);
@@ -11,15 +13,27 @@
     font-weight: bold;
     color: var(--color4);
     white-space: nowrap;
-    transition: transform 0.3s ease-out;
     z-index: -1;
 }
 
 .sobre .title {
     font-family: var(--shadows);
     font-size: 3em;
+    font-weight: 600;
 }
 
 .sobre .text {
     line-height: 2;
 }
+
+.sobre img {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    filter: drop-shadow(20px 20px 5px rgba(0, 0, 0, 0.5));
+}
+
+/* .sobre .link {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2em;
+} */

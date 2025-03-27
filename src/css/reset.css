@@ -9,10 +9,9 @@ html {
 
 body {
     overflow-x: hidden;
-    background: linear-gradient(to bottom, #C0C0C0 0%, #f4f4f4 60% 100%);
+    /* background: linear-gradient(to bottom, #C0C0C0 0%, #f4f4f4 60% 100%); */
 }
 
 .hidden {
     visibility: hidden;
 }
-

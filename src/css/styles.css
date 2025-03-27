@@ -3,6 +3,8 @@
 @import url('sobre.css');
 @import url('projetos.css');
 @import url('botoes.css');
+@import url('contato.css');
+@import url('footer.css');
 
 :root {
     --montserrat: "Montserrat", sans-serif;

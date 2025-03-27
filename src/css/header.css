@@ -1,17 +1,22 @@
 header {
     height: 100vh;
-    width: 100vw;
 }
 
-header .content .title {
+header .title {
     font-family: var(--shadows);
     font-size: 5em;
     font-weight: 600;
 }
 
-header .content .text {
+header .text {
     font-weight: 100;
     font-size: 2em;
     letter-spacing: 5px;
     color: var(--color2);
+}
+
+header .link {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2em;
 }
