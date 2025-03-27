@@ -4,13 +4,11 @@ header {
 
 header .title {
     font-family: var(--shadows);
-    /* font-size: 4em; */
     font-weight: 600;
 }
 
 header .text {
     font-weight: 100;
-    /* font-size: 2em; */
     letter-spacing: 3px;
     color: var(--color2);
 }

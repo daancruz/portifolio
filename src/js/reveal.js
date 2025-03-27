@@ -134,20 +134,20 @@ revelar.reveal('.projetos-list-animation', {
 
 revelar.reveal('.image-animation1', {
     duration: 2000,
-    distance: '1000px',
+    distance: '500px',
     origin: 'bottom'
 });
 
 revelar.reveal('.image-animation2', {
     duration: 2000,
-    distance: '1000px',
+    distance: '500px',
     delay: 250,
     origin: 'bottom'
 });
 
 revelar.reveal('.image-animation3', {
     duration: 2000,
-    distance: '1000px',
+    distance: '500px',
     delay: 500,
     origin: 'bottom'
 });

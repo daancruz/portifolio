@@ -18,7 +18,6 @@
 
 .sobre .title {
     font-family: var(--shadows);
-    /* font-size: 3em; */
     font-weight: 600;
 }
 
@@ -31,9 +30,3 @@
     border-bottom-left-radius: 30px;
     filter: drop-shadow(20px 20px 5px rgba(0, 0, 0, 0.5));
 }
-
-/* .sobre .link {
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2em;
-} */
