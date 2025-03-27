@@ -1,0 +1,25 @@
+.sobre {
+    z-index: 1;
+    height: 100vh;
+}
+
+.sobre .sobre-animation-fundo {
+    top: 50%;
+    left: -20%;
+    transform: translateY(-50%);
+    font-size: 20em;
+    font-weight: bold;
+    color: var(--color4);
+    white-space: nowrap;
+    transition: transform 0.3s ease-out;
+    z-index: -1;
+}
+
+.sobre .title {
+    font-family: var(--shadows);
+    font-size: 3em;
+}
+
+.sobre .text {
+    line-height: 2;
+}

@@ -1,0 +1,18 @@
+* {
+    font-family: var(--montserrat);
+    color: #2A2A2A;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background: linear-gradient(to bottom, #C0C0C0 0%, #f4f4f4 60% 100%);
+}
+
+.hidden {
+    visibility: hidden;
+}
+

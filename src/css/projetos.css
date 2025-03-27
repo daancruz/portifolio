@@ -1,0 +1,56 @@
+.projetos {
+    height: 100vh;
+    z-index: 1;
+}
+
+.projetos .projetos__animation {
+    top: 10%;
+    left: -25%;
+    font-size: 15em;
+    font-weight: bold;
+    color: var(--color4);
+    white-space: nowrap;
+    z-index: -1;
+}
+
+.projetos p:nth-child(1) {
+    top: 10%;
+    left: -25%;
+}
+
+.projetos p:nth-child(2) {
+    top: 50%;
+    left: -20%;
+    transform: translateY(-50%);
+}
+
+.projetos p:nth-child(3) {
+    top: 70%;
+    left: -10%;
+    transform: translateY(-50%);
+}
+
+.projetos .title {
+    font-family: var(--shadows);
+    font-size: 3em;
+}
+
+.projetos .text {
+    font-family: var(--montserrat);
+    line-height: 2;
+}
+
+.projetos .list {
+    list-style: none;
+    padding: 0;
+}
+
+.projetos .image-animation1, .image-animation2, .image-animation3 {
+    width: 150%;
+    border-radius: 8%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.projetos .image div:nth-child(3) {
+    margin-top: 35vh;
+}

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+@import url('header.css');
+@import url('sobre.css');
+@import url('projetos.css');
+@import url('botoes.css');
+
+:root {
+    --montserrat: "Montserrat", sans-serif;
+    --shadows: "Shadows Into Light", cursive;
+
+    --color1: #2A2A2A;
+    --color2: grey;
+    --color3: #C0C0C0;
+    --color4: rgba(128, 128, 128, 0.1);
+}

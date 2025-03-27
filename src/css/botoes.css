@@ -1,0 +1,13 @@
+.bi-arrow-down {
+    font-size: 2em;
+    color: var(--color2);
+    cursor: pointer;
+    transition: .3s;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bi-arrow-down:hover {
+    font-size: 2.5em;
+    transition: .3s;
+}
