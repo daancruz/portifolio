@@ -15,3 +15,7 @@ body {
 .hidden {
     visibility: hidden;
 }
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}

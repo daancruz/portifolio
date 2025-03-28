@@ -5,7 +5,7 @@
 .contato p:first-child {
     top: 50%;
     transform: translateY(-50%);
-    left: -15%;
+    left: -5%;
     font-size: 15em;
     font-weight: bold;
     color: var(--color4);
