@@ -39,3 +39,10 @@
 #sobre .image img {
     width: 100%;
 }
+
+@media (max-width: 767px) {
+    #sobre .image {
+        width: 250px;
+        height: 250px;
+    }
+}
