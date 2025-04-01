@@ -75,15 +75,54 @@
         "images":[
             {
                 "id":"0",
-                "img":"https://placehold.co/300x300"
+                "img":"src/img/desktop-art.png"
             },
             {
                 "id":"1",
-                "img":"https://placehold.co/300x300"
+                "img":"src/img/mobile-art.png"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "title":"ExactTime",
+        "repository":"https://github.com/daansmyth/udemy-projeto-exacttime",
+        "description":"Projeto feito com base em estudos sobre Bootstrap na Udemy, ministrado por Matheus Battisti.",
+        "tecnology":[
+            {
+                "id":"0",
+                "tec":"HTML"
+            },
+            {
+                "id":"1",
+                "tec":"CSS"
             },
             {
                 "id":"2",
-                "img":"https://placehold.co/300x300"
+                "tec":"JavaScript"
+            },
+            {
+                "id":"3",
+                "tec":"Bootstrap"
+            },
+            {
+                "id":"4",
+                "tec":"Bootstrap Icons"
+            }
+        ],
+        "images":[
+            {
+                "id":"0",
+                "img":"src/img/desktop-exacttime.png"
+            },
+            {
+                "id":"1",
+                "img":"src/img/mobile-exacttime.png"
+            }
+            ,
+            {
+                "id":"2",
+                "img":"src/img/tablet-exacttime.png"
             }
         ]
     }

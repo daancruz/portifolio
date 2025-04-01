@@ -1,11 +1,11 @@
-.sobre {
+#sobre {
     z-index: 1;
     min-height: 100vh;
     padding-top: 2em;
     padding-bottom: 8em;
 }
 
-.sobre p:first-child {
+#sobre p:first-child {
     top: 50%;
     left: -5%;
     transform: translateY(-50%);
@@ -16,17 +16,21 @@
     z-index: -1;
 }
 
-.sobre .title {
+#sobre .title {
     font-family: var(--shadows);
     font-weight: 600;
 }
 
-.sobre .text {
+#sobre .text {
     line-height: 2;
 }
 
-.sobre img {
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    filter: drop-shadow(20px 20px 5px rgba(0, 0, 0, 0.5));
+#sobre .image {
+    width: 400px;
+    height: 400px;
+    background-image: url('/src/img/danilo-cruz.jpeg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    filter: drop-shadow(10px 15px 5px rgba(0, 0, 0, 0.5));
 }

@@ -15,3 +15,8 @@
     --color3: #C0C0C0;
     --color4: rgba(128, 128, 128, 0.1);
 }
+
+body {
+    overflow-x: hidden;
+    font-size: 18px;
+}

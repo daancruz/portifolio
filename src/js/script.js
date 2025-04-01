@@ -6,10 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
         projetos.forEach(projeto => {
             const apresentacao = document.createElement("div")
-            apresentacao.className = "row mb-5"
+            apresentacao.className = "row mb-5 border-bottom position-relative"
             apresentacao.innerHTML = `
-                <div class="col-12 col-md-6">
-                    <h2 class="title display-1">${projeto.title}</h2>
+                <div class="col-12 col-md-6 mb-5">
+                    <p class="fundo top-100px">Projeto</p>
+                    <p class="fundo top-300px start-50px">${projeto.title}</p>
+                    <h2 class="title display-2">${projeto.title}</h2>
                     <p class="text">${projeto.description}</p>
                     <ul class="list">
                     ${projeto.tecnology.map(tec => (
@@ -21,12 +23,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     )).join('')}       
                     </ul>
                 </div>
-                <div class="col-12 col-md-6 d-flex">
+                <div class="col-12 col-md-6 d-flex mb-5">
                     ${projeto.images.map((img) => (
                         `
-                            <div class="col-4 px-2">
+                            <div class="d-flex align-items-center px-2">
                                 <div>
-                                    <img class="img-fluid" src="${img.img}" alt="">
+                                    <img class="img-fluid custom-shadow" src="${img.img}" alt="">
                                 </div>
                             </div>
                         `
