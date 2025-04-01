@@ -6,41 +6,32 @@
         "description":"Um protótipo foi disponibilizado para realizar um teste de Front-end para uma vaga de estágio.",
         "tecnology":[
             {
-                "id":"0",
                 "tec":"HTML"
             },
             {
-                "id":"1",
                 "tec":"CSS"
             },
             {
-                "id":"2",
                 "tec":"JavaScript"
             },
             {
-                "id":"3",
                 "tec":"Bootstrap"
             },
             {
-                "id":"4",
                 "tec":"Bootstrap Icons"
             },
             {
-                "id":"5",
                 "tec":"Swiper"
             }
         ],
         "images":[
             {
-                "id":"0",
                 "img":"src/img/suzane-sales1.png"
             },
             {
-                "id":"1",
                 "img":"src/img/suzane-sales2.png"
             },
             {
-                "id":"2",
                 "img":"src/img/suzane-sales3.png"
             }
         ]
@@ -52,33 +43,26 @@
         "description":"Um projeto feito a partir de estudos na Udemy, ministrado por Matheus Battisti com foco sobre Bootstrap.",
         "tecnology":[
             {
-                "id":"0",
                 "tec":"HTML"
             },
             {
-                "id":"1",
                 "tec":"CSS"
             },
             {
-                "id":"2",
                 "tec":"JavaScript"
             },
             {
-                "id":"3",
                 "tec":"Bootstrap"
             },
             {
-                "id":"4",
                 "tec":"Bootstrap Icons"
             }
         ],
         "images":[
             {
-                "id":"0",
                 "img":"src/img/desktop-art.png"
             },
             {
-                "id":"1",
                 "img":"src/img/mobile-art.png"
             }
         ]
@@ -90,38 +74,30 @@
         "description":"Projeto feito com base em estudos sobre Bootstrap na Udemy, ministrado por Matheus Battisti.",
         "tecnology":[
             {
-                "id":"0",
                 "tec":"HTML"
             },
             {
-                "id":"1",
                 "tec":"CSS"
             },
             {
-                "id":"2",
                 "tec":"JavaScript"
             },
             {
-                "id":"3",
                 "tec":"Bootstrap"
             },
             {
-                "id":"4",
                 "tec":"Bootstrap Icons"
             }
         ],
         "images":[
             {
-                "id":"0",
                 "img":"src/img/desktop-exacttime.png"
             },
             {
-                "id":"1",
                 "img":"src/img/mobile-exacttime.png"
             }
             ,
             {
-                "id":"2",
                 "img":"src/img/tablet-exacttime.png"
             }
         ]

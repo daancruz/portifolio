@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         `
                             <div class="d-flex align-items-center px-2">
                                 <div>
-                                    <img class="img-fluid custom-shadow" src="${img.img}" alt="">
+                                    <img class="img-fluid custom-shadow" src="${img.img}" alt="${projeto.title}">
                                 </div>
                             </div>
                         `
