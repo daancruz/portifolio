@@ -28,9 +28,10 @@
 #sobre .image {
     width: 400px;
     height: 400px;
-    background-image: url('/src/img/danilo-cruz.jpeg');
+    background-image: url('src/img/danilo-cruz.jpeg');
     background-position: center;
     background-size: cover;
     border-radius: 50%;
     filter: drop-shadow(10px 15px 5px rgba(0, 0, 0, 0.5));
 }
+
