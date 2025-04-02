@@ -17,12 +17,48 @@
 }
 
 #sobre .title {
-    font-family: var(--shadows);
+    font-family: var(--Architects);
     font-weight: 600;
 }
 
 #sobre .text {
     line-height: 2;
+}
+
+#sobre .icon a {
+    color: var(--color2);
+    transition: .4s;
+}
+
+.fa-html5:hover {
+    color: orange;
+    transition: .4s;
+}
+
+.fa-css3:hover,
+.fa-react:hover {
+    color: var(--color5);
+    transition: .4s;
+}
+
+.fa-js:hover {
+    color: #eeee77;
+    transition: .4s;
+}
+
+.fa-database:hover {
+    color: var(--color3);
+    transition: .4s;
+}
+
+.fa-node:hover {
+    color: green;
+    transition: .4s;
+}
+
+.fa-github:hover {
+    color: var(--color1);
+    transition: .4s;
 }
 
 #sobre .image {

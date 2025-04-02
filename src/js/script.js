@@ -34,6 +34,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         `
                     )).join('')}
                 </div>
+
+                <div class="rol-12 w-auto mx-auto">
+                    <a class="link" href="${projeto.repository}" target="_blank">
+                        Ir para o repositório
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
             `
             section.appendChild(apresentacao)
         })

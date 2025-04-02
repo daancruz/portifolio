@@ -1,5 +1,9 @@
+#projetos .row {
+    padding: 5em 0;
+}
+
 #projetos h2:first-child {
-    font-family: var(--shadows);
+    font-family: var(--Architects);
     font-weight: 600;
 }
 #projetos .custom-shadow {
@@ -27,4 +31,20 @@
     color: var(--color4);
     white-space: nowrap;
     z-index: -1;
+}
+
+#projetos .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5em;
+    text-decoration: none;
+    color: var(--color2);
+    margin-top: 2em;
+    transition: .4s;
+}
+
+#projetos .link:hover {
+    color: var(--color5);
+    transition: .4s;
 }

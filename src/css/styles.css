@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('header.css');
 @import url('sobre.css');
 @import url('projetos.css');
@@ -8,15 +8,17 @@
 
 :root {
     --montserrat: "Montserrat", sans-serif;
-    --shadows: "Shadows Into Light", cursive;
+    --Architects : "Architects Daughter", cursive;
 
     --color1: #2A2A2A;
     --color2: grey;
     --color3: #C0C0C0;
     --color4: rgba(128, 128, 128, 0.1);
+    --color5: #2EA1FF;
 }
 
 body {
     overflow-x: hidden;
     font-size: 18px;
+    color: var(--coor1);
 }

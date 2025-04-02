@@ -14,10 +14,17 @@
 }
 
 .contato .title {
-    font-family: var(--shadows);
+    font-family: var(--Architects);
     font-weight: bold;
 }
 
 .contato .link {
-    font-size: 3em;
+    font-size: 2em;
+    color: var(--color1);
+    transition: .5s;
+}
+
+.contato .link:hover {
+    color: var(--color5);
+    transition: .5s;
 }
