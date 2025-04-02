@@ -11,3 +11,18 @@
     font-size: 2.5em;
     transition: .3s;
 }
+
+.btn {
+    border-radius: 0;
+    transition: .4s;
+}
+
+.btn.custom-btn {
+    background-color: var(--color5);
+    color: #FFF;
+}
+
+.btn.custom-btn:hover {
+    background-color: #008cff;
+    transition: .4s;
+}

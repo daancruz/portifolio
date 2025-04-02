@@ -39,12 +39,15 @@
     justify-content: center;
     column-gap: .5em;
     text-decoration: none;
-    color: var(--color2);
-    margin-top: 2em;
     transition: .4s;
 }
 
 #projetos .link:hover {
-    color: var(--color5);
     transition: .4s;
+}
+
+@media (max-width: 767px) {
+    #projetos .row {
+        padding: 2em 0;
+    }
 }

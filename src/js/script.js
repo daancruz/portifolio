@@ -35,10 +35,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     )).join('')}
                 </div>
 
-                <div class="rol-12 w-auto mx-auto">
-                    <a class="link" href="${projeto.repository}" target="_blank">
+                <div class="rol-12 w-auto mx-auto d-flex flex-column flex-md-row gap-md-2 gap-3 mt-5">
+                    <a class="link btn custom-btn" href="${projeto.repository}" target="_blank">
                         Ir para o repositório
-                        <i class="bi bi-arrow-right"></i>
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <a class="link btn custom-btn" href="${projeto.link}" target="_blank">
+                        Visualizar na web
+                        <i class="bi bi-box-arrow-up-right"></i>
                     </a>
                 </div>
             `
