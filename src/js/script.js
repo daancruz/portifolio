@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         projetos.forEach(projeto => {
             const apresentacao = document.createElement("div")
-            apresentacao.className = "row mb-5 border-bottom position-relative"
+            apresentacao.className = "row mb-5 position-relative"
             apresentacao.innerHTML = `
                 <div class="col-12 col-md-6 mb-5">
                     <p class="fundo top-100px">Projeto</p>
