@@ -26,7 +26,7 @@ revelar.reveal('.animation-right', {
 
 revelar.reveal('.animation-projetos', {
     duration: 2000,
-    interval: 10,
+    interval: 10000,
     distance: '1000px',
     origin: 'bottom'
 });
