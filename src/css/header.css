@@ -3,12 +3,11 @@ header {
 }
 
 header .title {
-    font-family: var(--Architects);
+    font-family: var(--source);
     font-weight: 600;
 }
 
 header .text {
-    font-weight: 100;
     letter-spacing: 3px;
     color: var(--color2);
 }

@@ -14,8 +14,8 @@
 }
 
 .contato .title {
-    font-family: var(--Architects);
-    font-weight: bold;
+    font-family: var(--source);
+    font-weight: 600;
 }
 
 .contato .link {

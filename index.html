@@ -4,21 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Danilo Cruz | Web Dev" />
+    <meta property="og:description" content="Projetos desenvolvidos por Danilo Cruz" />
+    <meta property="og:url" content="https://daansmyth.github.io/portifolio" />
+    <meta property="og:image" content="src/img/logotipo-danilo.png" />
+    <meta property="og:type" content="website" />
+
     <title>Danilo da Cruz</title>
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+
     <!-- RESET CSS -->
     <link rel="stylesheet" href="src/css/reset.css">
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-    <!-- CSS -->
-    <link rel="stylesheet" href="src/css/styles.css">
     <!-- SCROLLREVEAL -->
-    <!-- <script src="https://unpkg.com/scrollreveal" defer></script> -->
-    <!-- <script src="src/js/reveal.js" defer></script> -->
-    <!-- Font Awesome -->
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script src="src/js/reveal.js" defer></script>
+    <!-- FONT AWESOME -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+     <!-- CSS -->
+     <link rel="stylesheet" href="src/css/styles.css">
     <!-- JS -->
     <script src="src/js/script.js" defer></script>
 </head>
@@ -27,8 +35,8 @@
     <div class="container-fluid overflow-x-hidden">
         <!-- HEADER -->
         <header class="container-fluid d-flex flex-column justify-content-center align-items-center position-relative">
-            <h1 class="title display-1">Danilo Cruz</h1>
-            <p class="text">Desenvolvedor web</p>
+            <h1 class="title animation-top display-1">Danilo Cruz</h1>
+            <p class="text animation-bottom">Desenvolvedor web</p>
             <div class="link text-center mt-5 position-absolute">
                 <a href="#sobre">
                     <i class="bi bi-arrow-down "></i>
@@ -39,10 +47,10 @@
         <main class="d-flex flex-column">
             <!-- SOBRE -->
             <section class="container position-relative mb-0 mb-md-5 d-flex flex-column " id="sobre">
-                <span class="position-absolute">SOBRE</span>
-                <h2 class="title mb-5 text-center display-1">Quem é o Danilo?</h2>
+                <span class="animation-left position-absolute">SOBRE</span>
+                <h2 class="title animation-top mb-5 text-center display-1">Quem é o Danilo?</h2>
                 <div class="row">
-                    <div class="col-12 col-md-6 order-2 order-md-1">
+                    <div class="animation-left col-12 col-md-6 order-2 order-md-1">
                         <div class="col-12 me-md-5">
                             <p class="text text-center text-md-start">
                                 Sou um desenvolvedor apaixonado por tecnologia e inovação, sempre buscando novas
@@ -59,7 +67,7 @@
                                 projetos que refletem minha evolução como desenvolvedor. Vamos conversar?
                             </p>
 
-                            <h2 class="title mt-5 display-3 mb-5">HABILIDADES</h2>
+                            <h2 class="title mt-5 display-3 mb-5">Habilidades</h2>
                             <ul class="list mt-3">
                                 <li class="item mb-3"><strong>Desenvolvimento Front-End:</strong> HTML, CSS, JavaScript,
                                     React
@@ -71,53 +79,51 @@
                                 <li class="item"><strong>Prototipagem:</strong> Figma</li>
                             </ul>
                         </div>
-                        <div class="icon d-flex justify-content-center my-5 gap-3">
-                            <a href="https://www.w3schools.com/" target="_blank">
-                                <i class="fa-brands fa-html5 display-6"></i>
-                            </a>
-                            <a href="https://www.w3schools.com/" target="_blank">
-                                <i class="fa-brands fa-css3 display-6"></i>
-                            </a>
-                            <a href="https://www.w3schools.com/" target="_blank">
-                                <i class="fa-brands fa-js display-6"></i>
-                            </a>
-                            <a href="https://www.w3schools.com/" target="_blank">
-                                <i class="fa-brands fa-react display-6"></i>
-                            </a>
-                            <a href="https://www.w3schools.com/" target="_blank">
-                                <i class="fa-solid fa-database display-6"></i>
-                            </a>
-                            <a href="https://www.w3schools.com/" target="_blank">
-                                <i class="fa-brands fa-node display-6"></i>
-                            </a>
-                            <a href="https://www.w3schools.com/" target="_blank">
-                                <i class="fa-brands fa-github display-6"></i>
-                            </a>
-                        </div>
                     </div>
-                    <div
-                        class="col-12 col-md-6 px-0 mb-5 d-flex justify-content-center align-items-center order-1 order-md-2">
+                    <div class="animation-right col-12 col-md-6 px-0 mb-5 d-flex justify-content-center align-items-center order-1 order-md-2">
                         <div class="image">
                             <img src="src/img/danilo-cruz.jpeg" alt="Danilo da Cruz">
                         </div>
                     </div>
-                </div>
 
+                    <div class="animation-bottom col-12 icon d-flex justify-content-center gap-3 order-3">
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <i class="fa-brands fa-html5 display-6"></i>
+                        </a>
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <i class="fa-brands fa-css3 display-6"></i>
+                        </a>
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <i class="fa-brands fa-js display-6"></i>
+                        </a>
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <i class="fa-brands fa-react display-6"></i>
+                        </a>
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <i class="fa-solid fa-database display-6"></i>
+                        </a>
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <i class="fa-brands fa-node display-6"></i>
+                        </a>
+                        <a href="https://www.w3schools.com/" target="_blank">
+                            <i class="fa-brands fa-github display-6"></i>
+                        </a>
+                    </div>
+                </div>
             </section>
 
             <!-- PROJETOS -->
-            <section class="container" id="projetos">
-                <h2 class="display-1 mb-0 mb-md-5 text-center text-md-start">PROJETOS</h2>
+            <section class="animation-projetos container" id="projetos">
+                <h2 class="animation-right display-1 mb-0 mb-md-5 text-center text-md-start">Projetos</h2>
                 <!-- RENDERIZAÇÃO POR JS -->
             </section>
 
             <!-- CONTATO -->
             <section class="contato container d-flex align-items-center justify-content-center" id="contato">
-                <div
-                    class="col-12 position-relative d-flex flex-column align-items-center justify-content-center gap-5">
-                    <p class="position-absolute">CONTATO</p>
-                    <h2 class="title display-1">Contato</h2>
-                    <div class="d-flex gap-3">
+                <div class="col-12 position-relative d-flex flex-column align-items-center justify-content-center gap-5">
+                    <p class="animation-left position-absolute">CONTATO</p>
+                    <h2 class="title animation-top display-1">Contato</h2>
+                    <div class="animation-bottom d-flex gap-3">
                         <a class="link contato-img " href="https://github.com/daansmyth" target="_blank">
                             <i class="bi bi-github"></i>
                         </a>
@@ -132,7 +138,7 @@
 
         <!-- FOOTER -->
         <footer class="col-12 py-2 d-flex align-items-center justify-content-center">
-            <p class="text text-center">Criado por <a class="link" href="https://linkedin.com/in/danilo-cruz-8805a2213"
+            <p class="text text-center">Desenvolvido por <a class="link" href="https://linkedin.com/in/danilo-cruz-8805a2213"
                     target="_blank">Danilo Cruz</a> | 2025 - Todos os direitos Reservados</p>
         </footer>
     </div>

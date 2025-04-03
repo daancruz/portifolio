@@ -3,7 +3,7 @@
 }
 
 #projetos h2:first-child {
-    font-family: var(--Architects);
+    font-family: var(--source);
     font-weight: 600;
 }
 #projetos .custom-shadow {

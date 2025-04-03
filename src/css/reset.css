@@ -2,10 +2,6 @@
     font-family: var(--montserrat);
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .hidden {
     visibility: hidden;
 }

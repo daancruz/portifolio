@@ -17,7 +17,7 @@
 }
 
 #sobre .title {
-    font-family: var(--Architects);
+    font-family: var(--source);
     font-weight: 600;
 }
 
@@ -30,35 +30,72 @@
     transition: .4s;
 }
 
-.fa-html5:hover {
-    color: orange;
+.fa-html5 {
+    color: #ffa600;
     transition: .4s;
+}
+
+.fa-css3,
+.fa-react {
+    color: var(--color5);
+    transition: .4s;
+}
+
+.fa-js {
+    color: #eeee77;
+    transition: .4s;
+}
+
+.fa-database {
+    color: var(--color3);
+    transition: .4s;
+}
+
+.fa-node {
+    color: green;
+    transition: .4s;
+}
+
+.fa-github {
+    color: var(--color1);
+    transition: .4s;
+}
+
+.fa-html5:hover {
+    color: #db8f00;
+    transition: .4s;
+    filter: brightness(75%);
 }
 
 .fa-css3:hover,
 .fa-react:hover {
     color: var(--color5);
     transition: .4s;
+    filter: brightness(75%);
 }
 
 .fa-js:hover {
     color: #eeee77;
     transition: .4s;
+    filter: brightness(75%);
 }
 
 .fa-database:hover {
     color: var(--color3);
     transition: .4s;
+    filter: brightness(75%);
 }
 
 .fa-node:hover {
     color: green;
     transition: .4s;
+    filter: brightness(75%);
 }
 
 .fa-github:hover {
     color: var(--color1);
     transition: .4s;
+    filter: brightness(75%);
 }
 
 #sobre .image {
@@ -69,7 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+    /* filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5)); */
 }
 
 #sobre .image img {
