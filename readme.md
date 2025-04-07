@@ -7,10 +7,6 @@
 
 </div>
 
-
-## 📞 **Dados de Contato**
-- **LinkedIn**: [Danilo Cruz](https://www.linkedin.com/in/danilo-cruz-8805a2213/)
-
 ## 💼 **Resumo Profissional**
 Sou Técnico em Informática com especialização em **Desenvolvimento** e atualmente estou cursando **Informática para Internet**, com ênfase em **Desenvolvimento Web**. Busco minha primeira oportunidade na área de **Tecnologia da Informação**, onde posso aplicar e expandir meus conhecimentos em **HTML**, **CSS**, **JavaScript**, **React**, **SQL** e **Node.js**.
 
