@@ -2,8 +2,8 @@
     {
         "id":"0",
         "title":"Suzane Sales",
-        "repository":"https://github.com/daansmyth/estudo-suzane_sales",
-        "link":"https://daansmyth.github.io/estudo-suzane_sales",
+        "repository":"https://github.com/daancruz/estudo-suzane_sales",
+        "link":"https://daancruz.github.io/estudo-suzane_sales",
         "description":"Um protótipo foi disponibilizado para realizar um teste de Front-end para uma vaga de estágio.",
         "tecnology":[
             {
@@ -40,8 +40,8 @@
     {
         "id":"1",
         "title":"Art",
-        "repository":"https://github.com/daansmyth/udemy-projeto-art",
-        "link":"https://daansmyth.github.io/udemy-projeto-art",
+        "repository":"https://github.com/daancruz/udemy-projeto-art",
+        "link":"https://daancruz.github.io/udemy-projeto-art",
         "description":"Um projeto feito a partir de estudos na Udemy, ministrado por Matheus Battisti com foco sobre Bootstrap.",
         "tecnology":[
             {
@@ -72,8 +72,8 @@
     {
         "id":"2",
         "title":"ExactTime",
-        "repository":"https://github.com/daansmyth/udemy-projeto-exacttime",
-        "link":"https://daansmyth.github.io/udemy-projeto-exacttime",
+        "repository":"https://github.com/daancruz/udemy-projeto-exacttime",
+        "link":"https://daancruz.github.io/udemy-projeto-exacttime",
         "description":"Projeto feito com base em estudos sobre Bootstrap na Udemy, ministrado por Matheus Battisti.",
         "tecnology":[
             {

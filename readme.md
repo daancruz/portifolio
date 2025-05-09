@@ -55,9 +55,9 @@ Sou Técnico em Informática com especialização em **Desenvolvimento** e atual
 ## 🚀 **Projetos**
 Confira alguns dos meus projetos desenvolvidos e hospedados no GitHub:
 
-- **[💻 Projeto 1 - Teste para Front-end Suzane Sales](https://github.com/daansmyth/estudo-suzane_sales)**
-- **[🎨 Projeto 2 - Estudos de Bootstrap Art](https://github.com/daansmyth/udemy-projeto-art)**
-- **[⏱️ Projeto 3 - Estudos de Bootstrap Exacttime](https://github.com/daansmyth/udemy-projeto-exacttime)**
+- **[💻 Projeto 1 - Teste para Front-end Suzane Sales](https://github.com/daancruz/estudo-suzane_sales)**
+- **[🎨 Projeto 2 - Estudos de Bootstrap Art](https://github.com/daancruz/udemy-projeto-art)**
+- **[⏱️ Projeto 3 - Estudos de Bootstrap Exacttime](https://github.com/daancruz/udemy-projeto-exacttime)**
 
 ## 📬 **Como Entrar em Contato**
 Sinta-se à vontade para entrar em contato comigo pelo meu [LinkedIn](https://www.linkedin.com/in/danilo-cruz-8805a2213/). Ficarei feliz em conversar sobre novas oportunidades ou colaborar em projetos interessantes! 🚀
