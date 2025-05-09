@@ -60,7 +60,7 @@ Confira alguns dos meus projetos desenvolvidos e hospedados no GitHub:
 - **[⏱️ Projeto 3 - Estudos de Bootstrap Exacttime](https://github.com/daancruz/udemy-projeto-exacttime)**
 
 ## 📬 **Como Entrar em Contato**
-Sinta-se à vontade para entrar em contato comigo pelo meu [LinkedIn](https://www.linkedin.com/in/danilo-cruz-8805a2213/). Ficarei feliz em conversar sobre novas oportunidades ou colaborar em projetos interessantes! 🚀
+Sinta-se à vontade para entrar em contato comigo pelo meu [LinkedIn](https://www.linkedin.com/in/daancruz/). Ficarei feliz em conversar sobre novas oportunidades ou colaborar em projetos interessantes! 🚀
 
 ---
 **Danilo Cruz** 🌱
