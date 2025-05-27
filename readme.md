@@ -3,18 +3,15 @@
 # 🌟 **Danilo Cruz - Portfólio** 🌟
 ![logotipo-danilo](https://github.com/user-attachments/assets/2abeabe7-23ca-4e98-a2b4-69f9f05c50c5)
 
-
-
 </div>
 
 ## 💼 **Resumo Profissional**
-Sou Técnico em Informática com especialização em **Desenvolvimento** e atualmente estou cursando **Informática para Internet**, com ênfase em **Desenvolvimento Web**. Busco minha primeira oportunidade na área de **Tecnologia da Informação**, onde posso aplicar e expandir meus conhecimentos em **HTML**, **CSS**, **JavaScript**, **React**, **SQL** e **Node.js**.
 
-💡 Tenho experiência prática no uso de **Bootstrap** e **Sass** para o desenvolvimento de páginas web responsivas, e sou familiarizado com **Figma**, **Git** e **GitHub** para versionamento de código e colaboração em equipes ágeis. Além disso, possuo familiaridade com **Java** e **Spring Boot**. 
+Técnico em Informática com especialização em **Desenvolvimento** e atualmente cursando **Informática para Internet**, com foco em **Desenvolvimento Web**. Domínio em **HTML**, **CSS**, **JavaScript**, **React**, **Vue.js**, **SQL** e **Node.js**, com experiência prática em **Bootstrap** para criação de interfaces responsivas.
 
-💬 Sou uma pessoa responsável, criativa, com forte atenção aos detalhes e focada na **resolução eficiente de problemas**. Tenho boas habilidades de **comunicação** e um excelente **relacionamento interpessoal**, sendo extrovertido e confortável em ambientes colaborativos.
+Atuo com versionamento de código usando **Git** e **GitHub** em ambientes colaborativos. Tenho habilidades em prototipagem com **Figma (UI/UX Design)**, desenvolvendo interfaces e fluxos interativos com foco na usabilidade e experiência do usuário.
 
-🔄 Estou comprometido com o **aprendizado contínuo**, realizando cursos online na **Alura** e **Udemy**, o que me permite estar sempre atualizado e em constante evolução profissional.
+Comprometido, criativo, detalhista e com forte capacidade de **resolução de problemas**. Tenho boas habilidades de **comunicação**, facilidade para trabalho em equipe e foco constante em aprendizado e evolução profissional por meio de cursos na Alura e Udemy.
 
 ## 🎓 **Formação Acadêmica**
 ### Instituto Técnico de Barueri Brasílio Flores de Azevedo – Barueri/SP
@@ -24,6 +21,7 @@ Sou Técnico em Informática com especialização em **Desenvolvimento** e atual
 **Técnico em Tecnologia da Informação | Concluído: 07/2024**
 
 ## 🏆 **Cursos e Certificações**
+- **UI Design com Figma** – Udemy | Carga horária: 18 horas
 - **Imersão Front-end** – Alura | Carga horária: 5 horas
 - **Imersão Back-end** – Alura | Carga horária: 4 horas
 - **Git e GitHub** – Alura | Carga horária: 8 horas
@@ -36,7 +34,8 @@ Sou Técnico em Informática com especialização em **Desenvolvimento** e atual
 - **Back-end**: Node.js
 - **Banco de Dados**: SQL (SQL Server)
 - **Versionamento de Código**: Git, GitHub
-- **Outros**: Responsividade e Design Adaptativo, Figma, Excel avançado
+- **Design**: Prototipagem com Figma (UI/UX Design)
+- **Outros**: Responsividade e Design Adaptativo Excel avançado
 
 ## 🧠 **Habilidades Interpessoais**
 - 💪 Fácil adaptação
@@ -58,6 +57,7 @@ Confira alguns dos meus projetos desenvolvidos e hospedados no GitHub:
 - **[💻 Projeto 1 - Teste para Front-end Suzane Sales](https://github.com/daancruz/estudo-suzane_sales)**
 - **[🎨 Projeto 2 - Estudos de Bootstrap Art](https://github.com/daancruz/udemy-projeto-art)**
 - **[⏱️ Projeto 3 - Estudos de Bootstrap Exacttime](https://github.com/daancruz/udemy-projeto-exacttime)**
+- **[📑 Projeto 4 - Estudos 2-DO](https://github.com/daancruz/to-do)**
 
 ## 📬 **Como Entrar em Contato**
 Sinta-se à vontade para entrar em contato comigo pelo meu [LinkedIn](https://www.linkedin.com/in/daancruz/). Ficarei feliz em conversar sobre novas oportunidades ou colaborar em projetos interessantes! 🚀
